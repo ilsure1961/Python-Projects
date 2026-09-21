@@ -3,6 +3,13 @@ Data Cleaning & Normalization: Standardizes headers, converts formatted string m
 Multi-Factor Scoring Engine: Evaluates each stock out of 1.00 across weighted criteria covering Dividend Growth Profile (35%), Core Fundamentals (30%), and Financial Safety (35%).
 Sector-Diversified Top 10 Selection: Assigns global and sector-level ranks, capping sector exposure to build a balanced top-10 stock selection and exporting results to CSV files.
 
+Multi-Model Option Pricing
+Multi-Model Option Pricing & Parity Check (Stage 1)
+Prices European options using the Black-Scholes-Merton (BSM) model and American options using the Cox-Ross-Rubinstein (CRR) Binomial Tree model.
+Calculates primary risk sensitivities, including Delta, Gamma, Vega, Theta, and Rho.
+Put-Call Parity Validation: Automatically evaluates the theoretical Call/Put relationship
+Strategy Evaluator & Multi-Leg Builder (Stage 2)
+Pre-Built Strategy Library: Integrates with a strategy menu to select multi-leg option strategies (e.g., spreads, Iron Condors, Butterflies, Calendar Spreads)
 
 Portfolio optimization and sector attribution analysis in Python.
 Portfolio of 100+ US  large cap dividend paying stocks across different sectors for the period from January 1, 2000, to January 1, 2025 .
